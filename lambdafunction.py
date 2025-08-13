@@ -56,7 +56,28 @@
 #                 a, b = b, a + b
 # cal_fibo(6)
 
-#4.Sum of list
-# list=[2,5,7,8,1]
-# def sum_list(sum):
-#     if 
+#4.Sum of list:
+# def sum_list(num):
+#     if len(num)==0:
+#      return 0
+#     else:
+#        return num[0]+ sum_list(num[1:])
+
+# print(sum_list([1,4,7,9,5]))
+
+#5. Get a input from user as number. If user entered negative number. Throw message as invalid. If user entered  0 throw factorial of 0.  Else it has to act as recursive factorial function.
+
+number=int(input("Enter a number"))
+
+def factorial(i):
+ 
+ if i < 0:
+   print ("invalid number, enter a postve number")
+ 
+ elif i==0:
+  print(1)
+ 
+ else:
+    i*factorial(i-1)
+ 
+factorial(5)

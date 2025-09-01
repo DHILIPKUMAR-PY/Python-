@@ -48,3 +48,22 @@ import random
 
 # with open("Quote of the day.text", "w") as myfile:
 #     myfile.write(my_quote)
+
+#  with open("first.txt", "w") as myfile:
+#     myfile.write("Later, the stork decided jumped to return the favor. She invited the fox to her house and served a delicious meal in a tall, narrow-necked jar. The stork was able to enjoy her food by dipping her beak into the jar, but the fox could not reach the food and went home hungry.")
+
+# length_dict={}
+
+# with open("first.txt", "r") as myfile:
+#     text = myfile.read().lower().replace(".", "").replace(",", "")
+#     words = text.split()
+#     for word in words:
+#         l = len(word)
+#         if l not in length_dict:
+#             length_dict[l] = []
+#         length_dict[l].append(word)
+
+
+# with open("first.text", "w") as myfile:
+#     for length in sorted(length_dict.keys()):
+#         myfile.write(str(length) + " letters: " + ", ".join(length_dict[length]) + "\n")

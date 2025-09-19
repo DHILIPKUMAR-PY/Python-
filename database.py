@@ -17,64 +17,64 @@ collection = database["user"]
 #     }
 
 
-students = [
-    {
-        "name": "Gowtham",
-        "age": 13,
-        "skill": "python,mongo",
-        "email": "gowtham@gmail.com",
-        "mobile": 8365378534,
-        "id": 101
-    },
-    {
-        "name": "Dhilip",
-        "age": 14,
-        "skill": "java,c++",
-        "email": "dhilip@gmail.com",
-        "mobile": 9876543210,
-        "id": 102
-    },
-    {
-        "name": "Vetri",
-        "age": 15,
-        "skill": "html,css,javascript",
-        "email": "vetri@gmail.com",
-        "mobile": 9123456789,
-        "id": 103
-    },
-    {
-        "name": "Arun",
-        "age": 16,
-        "skill": "python,flask",
-        "email": "arun@gmail.com",
-        "mobile": 9988776655,
-        "id": 104
-    },
-    {
-        "name": "Priya",
-        "age": 15,
-        "skill": "c,java",
-        "email": "priya@gmail.com",
-        "mobile": 8899776655,
-        "id": 105
-    },
-    {
-        "name": "Kavin",
-        "age": 14,
-        "skill": "javascript,react",
-        "email": "kavin@gmail.com",
-        "mobile": 7788996655,
-        "id": 106
-    },
-    {
-        "name": "Vimal",
-        "age": 15,
-        "skill": "nodejs,mongodb",
-        "email": "vimal@gmail.com",
-        "mobile": 9900112233,
-        "id": 107
-    }
-]
+# students = [
+#     {
+#         "name": "Gowtham",
+#         "age": 13,
+#         "skill": "python,mongo",
+#         "email": "gowtham@gmail.com",
+#         "mobile": 8365378534,
+#         "id": 101
+#     },
+#     {
+#         "name": "Dhilip",
+#         "age": 14,
+#         "skill": "java,c++",
+#         "email": "dhilip@gmail.com",
+#         "mobile": 9876543210,
+#         "id": 102
+#     },
+#     {
+#         "name": "Vetri",
+#         "age": 15,
+#         "skill": "html,css,javascript",
+#         "email": "vetri@gmail.com",
+#         "mobile": 9123456789,
+#         "id": 103
+#     },
+#     {
+#         "name": "Arun",
+#         "age": 16,
+#         "skill": "python,flask",
+#         "email": "arun@gmail.com",
+#         "mobile": 9988776655,
+#         "id": 104
+#     },
+#     {
+#         "name": "Priya",
+#         "age": 15,
+#         "skill": "c,java",
+#         "email": "priya@gmail.com",
+#         "mobile": 8899776655,
+#         "id": 105
+#     },
+#     {
+#         "name": "Kavin",
+#         "age": 14,
+#         "skill": "javascript,react",
+#         "email": "kavin@gmail.com",
+#         "mobile": 7788996655,
+#         "id": 106
+#     },
+#     {
+#         "name": "Vimal",
+#         "age": 15,
+#         "skill": "nodejs,mongodb",
+#         "email": "vimal@gmail.com",
+#         "mobile": 9900112233,
+# #         "id": 107
+# }
+# ]
 # def student(name):
 #     try:
 #         for student in students:
@@ -151,35 +151,35 @@ students = [
 #     except Exception as e:
 #         print("Error",str (e))
 
-# add_student(userData)
+# # add_student(userData)
 
-students = [
-    {
-        "name": "Gowtham",
-        "age": 13,
-        "skill": "python,mongo",
-        "email": "gowtham@gmail.com",
-        "mobile": 8365378534,
-        "id": 101
-    },
-    {
-        "name": "Dhilip",
-        "age": 14,
-        "skill": "java,c++",
-        "email": "dhilip@gmail.com",
-        "mobile": 9876543210,
-        "id": 102
-    },
-    {
-        "name": "gokul",
-        "age": 15,
-        "skill": "c,java",
-        "email": "gokul@gmail.com",
-        "mobile": 8899776655,
-        "id": 105
-    },
+# students = [
+#     {
+#         "name": "Gowtham",
+#         "age": 13,
+#         "marks" : "90%"
+#         "email":"gowtham@gmail.com",
+#         "mobile": 8365378534,
+#         "roll no" : 605013
+#     },
+#     {
+#         "name": "Dhilip",
+#         "age": 14,
+#         "skill": "java,c++",
+#         "email": "dhilip@gmail.com",
+#         "mobile": 9876543210,
+#         "id": 102
+#     },
+#     {
+#         "name": "gokul",
+#         "age": 15,
+#         "skill": "c,java",
+#         "email": "gokul@gmail.com",
+#         "mobile": 8899776655,
+#         "id": 105
+#     },
    
-]
+# ]
 def add_selected_students(students_list, name_insert):
     try:
         selected = [s for s in students_list if s["name"] in name_insert]
